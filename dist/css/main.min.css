@@ -1,22 +1,22 @@
 ﻿@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext";
 @font-face {
     font-family: "Barlow";
-    src: url("assets/fonts/Barlow-Regular.ttf") format("opentype");
+    src: url("../assets/fonts/Barlow-Regular.ttf") format("opentype");
     font-weight: 400;
 }
 @font-face {
     font-family: "Barlow";
-    src: url("assets/fonts/Barlow-Medium.ttf") format("opentype");
+    src: url("../assets/fonts/Barlow-Medium.ttf") format("opentype");
     font-weight: 500;
 }
 @font-face {
     font-family: "Barlow";
-    src: url("assets/fonts/Barlow-Bold.ttf") format("opentype");
+    src: url("../assets/fonts/Barlow-Bold.ttf") format("opentype");
     font-weight: 700;
 }
 @font-face {
     font-family: "Barlow";
-    src: url("assets/fonts/Barlow-Black.ttf") format("opentype");
+    src: url("../assets/fonts/Barlow-Black.ttf") format("opentype");
     font-weight: 900;
 } /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -6598,13 +6598,13 @@ button.close {
 }
 @font-face {
     font-family: "Montserrat";
-    src: url("assets/fonts/Montserrat-Regular-webfont.eot");
-    src: url("assets/fonts/Montserrat-Regular-webfont.eot?#iefix")
+    src: url("../assets/fonts/Montserrat-Regular-webfont.eot");
+    src: url("../assets/fonts/Montserrat-Regular-webfont.eot?#iefix")
             format("embedded-opentype"),
-        url("assets/fonts/Montserrat-Regular-webfont.woff2") format("woff2"),
-        url("assets/fonts/Montserrat-Regular-webfont.woff") format("woff"),
-        url("assets/fonts/Montserrat-Regular-webfont.ttf") format("truetype"),
-        url("assets/fonts/Montserrat-Regular-webfont.svg#montserratregular")
+        url("../assets/fonts/Montserrat-Regular-webfont.woff2") format("woff2"),
+        url("../assets/fonts/Montserrat-Regular-webfont.woff") format("woff"),
+        url("../assets/fonts/Montserrat-Regular-webfont.ttf") format("truetype"),
+        url("../assets/fonts/Montserrat-Regular-webfont.svg#montserratregular")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -6728,7 +6728,7 @@ table {
 }
 #nav-top .search input[type="submit"] {
     border: none;
-    background: url("assets/images/search_ico.png") no-repeat;
+    background: url("../assets/images/search_ico.png") no-repeat;
     vertical-align: middle;
     width: 23px;
     height: 23px;
@@ -6884,7 +6884,7 @@ table {
     left: 0;
     width: 100%;
     height: 1px;
-    background: url("assets/images/menu_arrow.png") no-repeat center top;
+    background: url("../assets/images/menu_arrow.png") no-repeat center top;
     content: "";
     opacity: 0;
     -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -7805,7 +7805,7 @@ table {
     position: absolute;
     width: 31px;
     height: 31px;
-    background: url("assets/images/search_gallery.png") no-repeat;
+    background: url("../assets/images/search_gallery.png") no-repeat;
     content: "";
     transition: 1s;
     opacity: 0;
@@ -7902,7 +7902,7 @@ table {
     position: relative;
 }
 #article .text .inner .nav-tabs li.active a::after {
-    background: url("assets/images/arrow_navlist.png") no-repeat center top;
+    background: url("../assets/images/arrow_navlist.png") no-repeat center top;
     position: absolute;
     width: 100%;
     height: 10px;
@@ -7919,7 +7919,7 @@ table {
 }
 #article .text .inner .tab-content .tab-pane .more-articles li {
     list-style: none;
-    background: url("assets/images/li.png") no-repeat;
+    background: url("../assets/images/li.png") no-repeat;
     background-position: 0 center;
     padding-left: 20px;
     margin-bottom: 8px;
@@ -8031,7 +8031,7 @@ table {
 }
 #article .sidebar .more-articles li {
     list-style: none;
-    background: url("assets/images/li.png") no-repeat;
+    background: url("../assets/images/li.png") no-repeat;
     background-position: 0 5px;
     padding-left: 20px;
     margin-bottom: 8px;
