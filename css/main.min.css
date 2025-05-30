@@ -6596,19 +6596,7 @@ button.close {
         display: none !important;
     }
 }
-@font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular-webfont.eot");
-    src: url("../fonts/Montserrat-Regular-webfont.eot?#iefix")
-            format("embedded-opentype"),
-        url("../fonts/Montserrat-Regular-webfont.woff2") format("woff2"),
-        url("../fonts/Montserrat-Regular-webfont.woff") format("woff"),
-        url("../fonts/Montserrat-Regular-webfont.ttf") format("truetype"),
-        url("../fonts/Montserrat-Regular-webfont.svg#montserratregular")
-            format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
+ 
 *:focus {
     outline: 0;
 }
