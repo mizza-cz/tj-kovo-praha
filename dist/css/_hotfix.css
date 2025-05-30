@@ -1,0 +1,20 @@
+body { background: none; }
+.owl-controls .owl-nav {
+    position: absolute;
+    width: 100%;
+    font-size: 56px;
+  
+}
+.owl-controls .owl-nav .owl-prev:before, .owl-controls .owl-nav .owl-next:before{
+    top: 50px;
+}
+.owl-next{
+    position: absolute;
+    left: 29px;
+}
+.owl-prev{
+    position: absolute;
+}
+.owl-controls .owl-nav .owl-next:before{
+    left: 6px;
+}
